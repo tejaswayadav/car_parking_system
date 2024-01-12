@@ -4,5 +4,7 @@ class Car:
         self.manufacturer = manufacturer
         self.license_plate = license_plate
 
+    # This is a comment
+    # This is a new comment
     def __str__(self):
         return f"{self.manufacturer} {self.name} with license plate number {self.license_plate}."
